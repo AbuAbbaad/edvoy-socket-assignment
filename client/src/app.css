@@ -1,0 +1,9 @@
+.menu-layout {
+  display: grid;
+  grid-template-columns: 58px 1fr;
+}
+
+.conversation-layout {
+  display: grid;
+  grid-template-rows: minmax(max-content, auto) 1fr minmax(max-content, auto);
+}
